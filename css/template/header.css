@@ -1,34 +1,29 @@
-
-  header {
-    position: relative;
-    background-image: linear-gradient(var(--primary), var(--secondary));
-    border-bottom: 1px solid white;
-    border-top-left-radius: var(--border-radius);
-    border-top-right-radius: var(--border-radius);
-    max-height: 40px;
-    height: 40px;
-
-    --y: -55px; 
-  }
-
-  /* Logo Position */
-  header img {
-    position: absolute;
-    top: calc(var(--y) - 50px); left: 105px;
-    pointer-events: none;
-  }
-
-  /* Mascot Positions */
-  header img:first-child {
-    position: absolute;
-    top: var(--y); left: 15px;
-  }
-  header img:last-child {
-    position: absolute;
-    top: var(--y); left: 355px;
-  }
-
-  header .button {
-    margin-right: 1em;
-    margin-top: .4em;
-  }
+header {
+  position: relative;
+  background-image: linear-gradient(var(--primary), var(--secondary));
+  border-bottom: 1px solid white;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  max-height: 40px;
+  height: 40px;
+  --y: -55px; 
+}
+/* Logo Position */
+header img {
+  position: absolute;
+  top: calc(var(--y) - 50px); left: 105px;
+  pointer-events: none;
+}
+/* Mascot Positions */
+header img:first-child {
+  position: absolute;
+  top: var(--y); left: 15px;
+}
+header img:last-child {
+  position: absolute;
+  top: var(--y); left: 355px;
+}
+header .button {
+  margin-right: 1em;
+  margin-top: .4em;
+}
