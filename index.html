@@ -144,6 +144,17 @@
   </div>
   <script src="js/jquery.min.js"></script>
   <script src="js/module/themeswitch.js"></script>
-  <script>$(() => $('[jquery-module="themeswitch"]').themeSwitch())</script>
+  <script>
+    $(() => $('[jquery-module="themeswitch"]').themeSwitch([
+      {
+        name: 'Classic',
+        color: '#d1b2e3'
+      },
+      {
+        name: 'Classic Blue',
+        color: '#b2b4e3'
+      },
+    ]))
+  </script>
 </body>
 </html>
