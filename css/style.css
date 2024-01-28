@@ -1,16 +1,12 @@
-
-  @import url('themes/classic.css');
-  @import url('themes/classic-blue.css');
-
-  @import url('root.css');
-
-  @import url('template/content.css');
-  @import url('template/footer.css');
-  @import url('template/header.css');
-  @import url('template/main.css');
-  @import url('template/navigation.css');
-  @import url('template/wrapper.css');
-
-  @import url('utils/button.css');
-  @import url('utils/tabs.css');
-  @import url('utils/flex.css');
+@import url('themes/classic.css');
+@import url('themes/classic-blue.css');
+@import url('root.css');
+@import url('template/content.css');
+@import url('template/footer.css');
+@import url('template/header.css');
+@import url('template/main.css');
+@import url('template/navigation.css');
+@import url('template/wrapper.css');
+@import url('utils/button.css');
+@import url('utils/tabs.css');
+@import url('utils/flex.css');
