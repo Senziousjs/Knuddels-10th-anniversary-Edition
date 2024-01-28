@@ -1,20 +1,17 @@
-
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  *:root {
-    --wrapper-width: 1000px;
-    --border-radius: 12px;
-    --font-size: 13.5px;
-  }
-
-  body {
-    background-image: linear-gradient(var(--primary-light), var(--secondary-light));
-    width: 100%; height: 100vh;
-    font-family: Arial;
-    font-size: var(--font-size);
-    color: var(--text-color);
-  }
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ *:root {
+   --wrapper-width: 1000px;
+   --border-radius: 12px;
+   --font-size: 13.5px;
+ }
+ body {
+   background-image: linear-gradient(var(--primary-light), var(--secondary-light));
+   width: 100%; height: 100vh;
+   font-family: Arial;
+   font-size: var(--font-size);
+   color: var(--text-color);
+ }
