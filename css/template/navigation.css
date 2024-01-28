@@ -19,8 +19,6 @@ nav section:first-child li:first-child {
 }
 nav section:not(:first-child) li:first-child {
   border-top-right-radius: var(--border-radius);
-}
-nav section:not(:first-child) li:first-child {
   border-top: 1px solid white;
 }
 nav section li:last-child {
