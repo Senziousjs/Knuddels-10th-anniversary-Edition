@@ -1,7 +1,7 @@
 ## Knuddels 2009 (10th anniversary Edition)
 Back in 2009, graphics were used for the entire design. Here it is with HTML and CSS only; 15 years later.
 
-Important: All graphics used here are the property of Knuddels GmbH & Co KG and may not be used without permission from Knuddels.
+Important: All graphics (*.png, *.gif) used here are the property of Knuddels GmbH & Co KG and may not be used without permission from Knuddels.
 
 [https://web.archive.org/web/20090727025251/http://www.knuddels.de/](https://web.archive.org/web/20091019090839/http://www.knuddels.de/)
 
