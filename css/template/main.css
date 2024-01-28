@@ -1,6 +1,5 @@
-
-  main {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-  }
+main {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
