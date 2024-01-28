@@ -1,0 +1,14 @@
+
+  .flex-inline-row-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .flex-inline-row-2 div {
+    width: 50%;
+  }
+
+  .flex-inline-row-2 div:last-child {
+    text-align: right;
+  }

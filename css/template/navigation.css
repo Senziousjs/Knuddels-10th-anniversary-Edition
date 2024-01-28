@@ -1,0 +1,161 @@
+
+  nav {
+    position: relative;
+    font-size: calc(var(--font-size) - .5px);
+    min-width: 200px;
+    top: -1px;
+  }
+
+  nav section:not(:first-child) {
+    margin-top: 1em;
+  }
+
+  nav section li {
+    list-style: none;
+    display: block;
+    border-right: 1px solid white;
+    border-bottom: 1px solid var(--primary);
+    border-top: 1px solid rgba(255, 255, 255, .75);
+  }
+
+  nav section:first-child li:first-child {
+    margin-top: 7px;
+  }
+
+  nav section:not(:first-child) li:first-child {
+    border-top-right-radius: var(--border-radius);
+  }
+
+  nav section:not(:first-child) li:first-child {
+    border-top: 1px solid white;
+  }
+
+  nav section li:last-child {
+    border-bottom-right-radius: var(--border-radius);
+    border-bottom: 1px solid white;
+  }
+
+  /* Links */
+  nav section li a {
+    color: var(--link-color);
+    background: var(--secondary);
+    text-decoration: none;
+    display: block;
+    padding: .1em .2em .1em 1.5em;
+    position: relative;
+  }
+  nav section:not(:first-child) li:first-child a {
+    border-top-right-radius: var(--border-radius); 
+  }
+  nav section li:last-child a {
+    border-bottom-right-radius: var(--border-radius); 
+  }
+  nav section li a:focus,
+  nav section li a:active,
+  nav section li a:hover {
+    background: var(--secondary-light);
+    color: var(--link-hover-color);
+  }
+  nav section li a.prevent {
+    background: var(--secondary-light);
+    color: var(--link-hover-color);
+    position: relative;
+    font-weight: 600;
+  }
+  nav section li a.prevent:after {
+    content: '';
+    position: absolute; 
+    width: 0; height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right: 10px solid white; 
+    pointer-events: none;
+    right: -4px;
+    z-index: 1;
+  }
+  nav section[data-type=advertising] {
+    background: transparent;
+    border: 1px solid white;
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    border-left: none;
+    overflow: hidden;
+  }
+  nav section[data-type=advertising] .title {
+    position: relative;
+    background: var(--secondary-light);
+    color: var(--link-color);
+    font-weight: 600;
+    border-bottom: 1px solid var(--primary);
+    padding: .1em .2em .1em 1.5em;
+  }
+  nav section[data-type=advertising] .title:after {
+    content: ' ';
+    position: absolute;
+    top: calc(100% + 1px); left: 0;
+    height: 1px; width: 100%;
+    background: rgba(255, 255, 255, 1);
+  }
+  
+  nav section[data-type=advertising] .content {
+    position: relative;
+    padding: .5em .5em .5em 1.5em;
+    background: rgba(255, 255, 255, .3);
+  }
+  nav section[data-type=advertising] .content.img {
+    height: 60px;
+  }
+  nav section[data-type=advertising] .content img {
+    position: absolute;
+    top: 0; left: 0;
+    image-rendering: pixelated;
+  }
+
+  /* fix corner in header */
+  main nav:after {
+    width: 20px;
+    height: 20px;
+    background: var(--secondary);
+    display: block;
+    position: absolute;
+    content: '';
+    top: 0; right: -21px;
+    border: 1px solid white;
+    border-radius: 100px;
+    z-index: 1;
+  }
+  main nav:before {
+    width: 20px;
+    height: 20px;
+    background: var(--primary);
+    display: block;
+    position: absolute;
+    content: '';
+    top: 1px; right: -22px;
+    border: 1px solid var(--primary);
+    border-top-left-radius: 10px;
+    z-index: 2;
+  }
+  main nav section:first-child:after {
+      content: '';
+      width: 10px;
+      height: 10px;
+      background: var(--secondary);
+      top: 0;
+      right: -9px;
+      display: block;
+      z-index: 1;
+      position: absolute;
+  }
+  nav section:first-child li:first-child:before {
+    content: '';
+    width: calc(100% + 10px);
+    height: 10px;
+    background: var(--secondary);
+    top: -4px;
+    left: 0;
+    display: block;
+    z-index: 1;
+    position: absolute;
+  }
+  /* end fix */

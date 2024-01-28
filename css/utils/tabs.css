@@ -1,0 +1,76 @@
+.tabs {
+  position: relative;
+  border: 1px solid white;
+  background: var(--secondary);
+  border-radius: var(--border-radius);
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+.tabs h1 {
+  position: relative;
+  font-weight: 600;
+  font-size: calc(var(--font-size) + 10px);
+}
+
+.tabs:after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  top: calc(100% - 10px);
+  height: 20px;
+  left: -1px;
+  border-width: 0;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-style: solid;
+  z-index: 4;
+  border-image: linear-gradient(white, var(--primary)) 1 100%;
+  background-image: linear-gradient(var(--secondary), var(--primary));
+}
+.tabs .tabs-list {
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(255,255,255,1) 2%, rgba(255,255,255,1) 98%, rgba(255,255,255,0) 100%);
+  border-image-slice: 1;
+  margin-top: .75em;
+}
+.tabs .tabs-list li {
+  list-style: none;
+  display: inline-block;
+}
+.tabs .tabs-list li:first-child {
+  margin-left: 1em;
+}
+.tabs .tabs-list li:not(:first-child) {
+  margin-left: -.5em;
+}
+
+.tabs .tabs-list li a {
+  display: block;
+  background: var(--primary);
+  border: 1px solid white;
+  color: var(--link-color);
+  border-bottom: 0;
+  border-top-right-radius: var(--border-radius);
+  border-top-left-radius: var(--border-radius);
+  text-decoration: none;
+  font-size: calc(var(--font-size) - .75px);
+  padding: .4em 1em;
+  font-weight: 400;
+}
+
+.tabs .tabs-list li a:hover {
+  background: var(--secondary);
+  color: var(--link-hover-color);
+}
+
+.tabs .tabs-list li a.prevent {
+  position: relative;
+  background: var(--secondary);
+  box-shadow: 0 -3px 4px 0 rgba(0, 0, 0, .1);
+  font-weight: 500;
+  top: 1px;
+  font-weight: 500;
+  z-index: 2;
+}

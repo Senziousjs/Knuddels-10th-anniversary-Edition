@@ -1,0 +1,17 @@
+
+  [data-theme="Classic Blue"]:root {
+    /* Text Color */
+    --text-color: #555;
+
+    /* Default Colors */
+    --primary: #b2b4e3;
+    --primary-light: #d8d7f9;
+    --secondary: #cfd0ec;
+    --secondary-light: #dbdbec;
+
+    /* Link Colors */
+    --link-color: #423c94;
+    --link-hover-color: #5842d1;
+    --link-color-dark: #555;
+    --link-hover-color-dark: #333;
+  }
