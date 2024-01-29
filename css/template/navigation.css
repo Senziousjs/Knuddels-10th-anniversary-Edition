@@ -94,7 +94,7 @@ nav section[data-type=advertising] .content {
 nav section[data-type=advertising] .content.img {
   height: 60px;
 }
-nav section[data-type=advertising] .content img {
+nav section[data-type=advertising] .content.img img {
   position: absolute;
   top: 0; left: 0;
   image-rendering: pixelated;
