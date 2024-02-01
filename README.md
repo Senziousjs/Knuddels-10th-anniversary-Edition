@@ -5,7 +5,7 @@ Back in 2009, graphics were used for the entire design. Here it is with HTML and
 
 Important: All graphics used here are the property of Knuddels GmbH & Co KG and may not be used without permission from Knuddels.
 
-Live Demo: - Coming Soon -
+Live Demo: [Click here](https://codepen.io/Senzious/full/ZEPxjRg)
 
 ### Classic Theme
 <img src="https://github.com/Senziousjs/Knuddels-10th-anniversary-Edition/blob/main/resources/Screenshot%20Classic.png" alt="Classic 2009" />
