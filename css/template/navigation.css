@@ -142,7 +142,7 @@ nav section:first-child li:first-child:before {
   width: calc(100% + 10px);
   height: 10px;
   background: var(--secondary);
-  top: -4px;
+  top: -2px;
   left: 0;
   display: block;
   z-index: 1;
