@@ -7,6 +7,7 @@ footer nav {
   position: absolute;
   top: 3em;
   text-align: center;
+  padding: 0 0 2em;
   width: 100%;
 }
 footer nav li {
