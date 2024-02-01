@@ -8,10 +8,10 @@ Important: All graphics used here are the property of Knuddels GmbH & Co KG and 
 Live Demo: - Coming Soon -
 
 ### Classic Theme
-<img src="" alt="Classic 2009" />
+<img src="https://github.com/Senziousjs/Knuddels-10th-anniversary-Edition/blob/main/resources/Screenshot%20Classic.png" alt="Classic 2009" />
 
 ### Classic Blue Theme
-<img src="" alt="Classic 2009 Blue" />
+<img src="https://github.com/Senziousjs/Knuddels-10th-anniversary-Edition/blob/main/resources/Screenshot%20Classic%20Blue.png" alt="Classic 2009 Blue" />
 
 Fancy trip back in 2009? [https://web.archive.org/web/20090727025251/http://www.knuddels.de/](https://web.archive.org/web/20091019090839/http://www.knuddels.de/)
 
