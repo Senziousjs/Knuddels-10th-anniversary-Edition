@@ -30,7 +30,7 @@ nav section li a {
   display: block;
   padding: .1em .2em .1em 1.5em;
   border-bottom: 1px solid var(--primary);
-  border-top: 1px solid rgba(255, 255, 255, .75);
+  border-top: 1px solid rgba(255, 255, 255, .3);
   border-right: 1px solid white;
   position: relative;
 }
@@ -56,11 +56,11 @@ nav section li a.prevent:after {
   content: '';
   position: absolute; 
   width: 0; height: 0; 
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent; 
-  border-right: 10px solid white; 
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent; 
+  border-right: 8px solid white; 
   pointer-events: none;
-  right: -4px; top: -1px;
+  right: -3px; top: 1px;
   z-index: 1;
 }
 nav section[data-type=advertising] {
@@ -89,7 +89,8 @@ nav section[data-type=advertising] .title:after {
 nav section[data-type=advertising] .content {
   position: relative;
   padding: .5em .5em .5em 1.5em;
-  background: rgba(255, 255, 255, .3);
+  background: var(--secondary);
+  border-top: 1px solid rgba(255, 255, 255, .3);
 }
 nav section[data-type=advertising] .content.img {
   height: 60px;
@@ -99,7 +100,6 @@ nav section[data-type=advertising] .content.img img {
   top: 0; left: 0;
   height: 60px;
   width: 100%;
-  border-top: 1px solid white;
 }
 /* fix corner in header */
 main nav:after {
